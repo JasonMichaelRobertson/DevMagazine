@@ -78,26 +78,6 @@
     <EmbeddedResource Include="Mvc\Views\MessageWidget\Default.cshtml" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="bin\Microsoft.CSharp.dll" />
-    <Content Include="bin\MyFirstMvcWidget.dll" />
-    <Content Include="bin\MyFirstMvcWidget.pdb" />
-    <Content Include="bin\System.Configuration.dll" />
-    <Content Include="bin\System.Data.DataSetExtensions.dll" />
-    <Content Include="bin\System.Data.dll" />
-    <Content Include="bin\System.dll" />
-    <Content Include="bin\System.Net.Http.dll" />
-    <Content Include="bin\System.Runtime.Serialization.dll" />
-    <Content Include="bin\System.Web.dll" />
-    <Content Include="bin\System.Web.Helpers.dll" />
-    <Content Include="bin\System.Web.Mvc.dll" />
-    <Content Include="bin\System.Web.WebPages.Razor.dll" />
-    <Content Include="bin\System.Xml.dll" />
-    <Content Include="bin\System.Xml.Linq.dll" />
-    <Content Include="bin\Telerik.Sitefinity.dll" />
-    <Content Include="bin\Telerik.Sitefinity.Frontend.dll" />
-    <Content Include="bin\Telerik.Sitefinity.Mvc.dll" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
