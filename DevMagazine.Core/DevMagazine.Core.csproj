@@ -189,7 +189,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="bin\DevMagazine.Core.dll.config" />
-    <None Include="packages.config">
+    <None Include="packages-ignore.config">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
