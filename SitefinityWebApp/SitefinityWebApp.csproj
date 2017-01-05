@@ -1232,7 +1232,6 @@
     <Content Include="Sitefinity\Services\Versioning\HistoryService.svc" />
     <Content Include="Sitefinity\Services\Workflow\WorkflowDefinitionService.svc" />
     <Content Include="Sitefinity\Services\Workflow\WorkflowService.svc" />
-    <Content Include="Tools\Microsoft.Bcl.Build.Tasks.dll" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -1729,7 +1728,18 @@
     <Content Include="App_Data\Sitefinity\Search\articles\_0.cfs" />
     <Content Include="App_Data\Sitefinity\Search\main\segments.gen" />
     <Content Include="App_Data\Sitefinity\Sitefinity.lic" />
-    <Content Include="Tools\Microsoft.Bcl.Build.targets" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Detail.DetailPage.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\List.BlogPostList.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Breadcrumb.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Card.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Card.Hero.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Card.Simple.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\ChangePassword.ChangePassword.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Write.Default_Inline.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Comments.Default - Copy.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\CommentsCount.Default - Copy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AuthorWidget\AuthorWidget.csproj">
