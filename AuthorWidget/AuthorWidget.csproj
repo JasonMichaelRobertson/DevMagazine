@@ -295,6 +295,9 @@
     <None Include="bin\Telerik.Sitefinity.Web.Api.dll.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="MVC\Scripts\Author\designerview-simple.js" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="bin\AjaxControlToolkit.dll" />
     <Content Include="bin\AmazingCloudSearch.dll" />
     <Content Include="bin\AntiXssLibrary.dll" />
@@ -807,9 +810,6 @@
     <Content Include="bin\zh-Hant\Microsoft.OData.Edm.resources.dll" />
     <Content Include="bin\zh-Hant\Microsoft.Spatial.resources.dll" />
     <Content Include="bin\zh-Hant\System.Spatial.resources.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="MVC\Scripts\Author\designerview-simple.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
