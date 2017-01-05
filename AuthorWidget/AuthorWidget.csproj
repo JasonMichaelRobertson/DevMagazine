@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -25,7 +25,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>bin\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -241,7 +241,7 @@
     <EmbeddedResource Include="MVC\Views\Author\DesignerView.Simple.cshtml" />
     <EmbeddedResource Include="MVC\Views\Author\DesignerView.Simple.json" />
     <None Include="bin\%24RANDOM_SEED%24" />
-    <None Include="bin\Debug\AuthorWidget.dll.config" />
+    <None Include="bin\AuthorWidget.dll.config" />
     <None Include="bin\SitefinityWebApp.dll.config" />
     <None Include="bin\Telerik.Sitefinity.AmazonCloudSearch.dll.config" />
     <None Include="bin\Telerik.Sitefinity.Analytics.Server.Infrastructure.dll.config" />
@@ -302,6 +302,8 @@
     <Content Include="bin\AmazingCloudSearch.dll" />
     <Content Include="bin\AntiXssLibrary.dll" />
     <Content Include="bin\AntiXssLibrary.xml" />
+    <Content Include="bin\AuthorWidget.dll" />
+    <Content Include="bin\AuthorWidget.pdb" />
     <Content Include="bin\AWSSDK.dll" />
     <Content Include="bin\AWSSDK.pdb" />
     <Content Include="bin\CsvHelper.dll" />
@@ -309,161 +311,6 @@
     <Content Include="bin\CsvHelper.xml" />
     <Content Include="bin\DDay.Collections.dll" />
     <Content Include="bin\DDay.iCal.dll" />
-    <Content Include="bin\Debug\AjaxControlToolkit.dll" />
-    <Content Include="bin\Debug\AuthorWidget.dll" />
-    <Content Include="bin\Debug\AuthorWidget.pdb" />
-    <Content Include="bin\Debug\CsvHelper.dll" />
-    <Content Include="bin\Debug\CsvHelper.pdb" />
-    <Content Include="bin\Debug\CsvHelper.xml" />
-    <Content Include="bin\Debug\DDay.Collections.dll" />
-    <Content Include="bin\Debug\DDay.iCal.dll" />
-    <Content Include="bin\Debug\DirectShowLib-2005.dll" />
-    <Content Include="bin\Debug\DocumentFormat.OpenXml.dll" />
-    <Content Include="bin\Debug\Elasticsearch.Net.dll" />
-    <Content Include="bin\Debug\Elasticsearch.Net.pdb" />
-    <Content Include="bin\Debug\Elasticsearch.Net.xml" />
-    <Content Include="bin\Debug\EnvDTE.dll" />
-    <Content Include="bin\Debug\HtmlAgilityPack.dll" />
-    <Content Include="bin\Debug\HtmlAgilityPack.pdb" />
-    <Content Include="bin\Debug\HtmlAgilityPack.xml" />
-    <Content Include="bin\Debug\HtmlSanitizationLibrary.dll" />
-    <Content Include="bin\Debug\HtmlSanitizationLibrary.xml" />
-    <Content Include="bin\Debug\LinqToTwitter.dll" />
-    <Content Include="bin\Debug\Microsoft.CSharp.dll" />
-    <Content Include="bin\Debug\Microsoft.Http.dll" />
-    <Content Include="bin\Debug\Microsoft.IdentityModel.dll" />
-    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.dll" />
-    <Content Include="bin\Debug\Microsoft.Practices.ServiceLocation.xml" />
-    <Content Include="bin\Debug\Microsoft.SqlServer.Types.dll" />
-    <Content Include="bin\Debug\Microsoft.Web.Infrastructure.dll" />
-    <Content Include="bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll" />
-    <Content Include="bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll" />
-    <Content Include="bin\Debug\MonAgentListener.dll" />
-    <Content Include="bin\Debug\Nest.dll" />
-    <Content Include="bin\Debug\Nest.pdb" />
-    <Content Include="bin\Debug\Nest.xml" />
-    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
-    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
-    <Content Include="bin\Debug\Ninject.dll" />
-    <Content Include="bin\Debug\Ninject.Web.Common.dll" />
-    <Content Include="bin\Debug\Ninject.Web.Common.xml" />
-    <Content Include="bin\Debug\Ninject.xml" />
-    <Content Include="bin\Debug\Payflow_dotNET.dll" />
-    <Content Include="bin\Debug\RazorEngine.dll" />
-    <Content Include="bin\Debug\RazorGenerator.Mvc.dll" />
-    <Content Include="bin\Debug\RazorGenerator.Templating.dll" />
-    <Content Include="bin\Debug\RedDog.Search.dll" />
-    <Content Include="bin\Debug\ServiceStack.Client.dll" />
-    <Content Include="bin\Debug\ServiceStack.Common.dll" />
-    <Content Include="bin\Debug\ServiceStack.Common.xml" />
-    <Content Include="bin\Debug\ServiceStack.dll" />
-    <Content Include="bin\Debug\ServiceStack.Interfaces.dll" />
-    <Content Include="bin\Debug\ServiceStack.Redis.dll" />
-    <Content Include="bin\Debug\ServiceStack.Redis.xml" />
-    <Content Include="bin\Debug\ServiceStack.Text.dll" />
-    <Content Include="bin\Debug\ServiceStack.Text.xml" />
-    <Content Include="bin\Debug\ServiceStack.xml" />
-    <Content Include="bin\Debug\stdole.dll" />
-    <Content Include="bin\Debug\System.Configuration.dll" />
-    <Content Include="bin\Debug\System.Data.DataSetExtensions.dll" />
-    <Content Include="bin\Debug\System.Data.dll" />
-    <Content Include="bin\Debug\System.dll" />
-    <Content Include="bin\Debug\System.Net.Http.Formatting.dll" />
-    <Content Include="bin\Debug\System.Net.Http.Formatting.xml" />
-    <Content Include="bin\Debug\System.Runtime.Serialization.dll" />
-    <Content Include="bin\Debug\System.Web.dll" />
-    <Content Include="bin\Debug\System.Web.Helpers.dll" />
-    <Content Include="bin\Debug\System.Web.Helpers.xml" />
-    <Content Include="bin\Debug\System.Web.Mvc.dll" />
-    <Content Include="bin\Debug\System.Web.Mvc.xml" />
-    <Content Include="bin\Debug\System.Web.Razor.dll" />
-    <Content Include="bin\Debug\System.Web.Razor.xml" />
-    <Content Include="bin\Debug\System.Web.WebPages.Deployment.dll" />
-    <Content Include="bin\Debug\System.Web.WebPages.Deployment.xml" />
-    <Content Include="bin\Debug\System.Web.WebPages.dll" />
-    <Content Include="bin\Debug\System.Web.WebPages.Razor.dll" />
-    <Content Include="bin\Debug\System.Web.WebPages.Razor.xml" />
-    <Content Include="bin\Debug\System.Web.WebPages.xml" />
-    <Content Include="bin\Debug\System.Xml.dll" />
-    <Content Include="bin\Debug\System.Xml.Linq.dll" />
-    <Content Include="bin\Debug\Telerik.Everlive.Sdk.dll" />
-    <Content Include="bin\Debug\Telerik.OpenAccess.35.Extensions.dll" />
-    <Content Include="bin\Debug\Telerik.OpenAccess.35.Extensions.xml" />
-    <Content Include="bin\Debug\Telerik.OpenAccess.40.Extensions.dll" />
-    <Content Include="bin\Debug\Telerik.OpenAccess.40.Extensions.xml" />
-    <Content Include="bin\Debug\Telerik.OpenAccess.dll" />
-    <Content Include="bin\Debug\Telerik.OpenAccess.Runtime.dll" />
-    <Content Include="bin\Debug\Telerik.OpenAccess.Web.dll" />
-    <Content Include="bin\Debug\Telerik.OpenAccess.xml" />
-    <Content Include="bin\Debug\Telerik.Reporting.dll" />
-    <Content Include="bin\Debug\Telerik.Reporting.xml" />
-    <Content Include="bin\Debug\Telerik.ReportViewer.WebForms.dll" />
-    <Content Include="bin\Debug\Telerik.ReportViewer.WebForms.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.ContentModules.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.ContentModules.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Ecommerce.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Ecommerce.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Frontend.Data.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Frontend.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Frontend.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Model.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Model.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Mvc.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Mvc.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Personalization.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Personalization.Impl.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Personalization.Impl.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Personalization.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.RecurrentRules.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.RecurrentRules.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Resources.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Resources.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Search.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Search.Impl.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Search.Impl.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Search.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Comments.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Comments.Impl.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Comments.Impl.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Comments.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Documents.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Documents.Impl.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Documents.Impl.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Documents.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Events.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Events.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Notifications.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Notifications.Impl.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Notifications.Impl.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Notifications.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.RecycleBin.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.RecycleBin.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Statistics.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Statistics.Impl.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Statistics.Impl.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Services.Statistics.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.SiteSync.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.SiteSync.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Utilities.dll" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.Utilities.xml" />
-    <Content Include="bin\Debug\Telerik.Sitefinity.xml" />
-    <Content Include="bin\Debug\Telerik.Web.Design.dll" />
-    <Content Include="bin\Debug\Telerik.Web.UI.dll" />
-    <Content Include="bin\Debug\Telerik.Web.UI.Skins.dll" />
-    <Content Include="bin\Debug\Telerik.Web.UI.xml" />
-    <Content Include="bin\Debug\Telerik.Windows.Controls.dll" />
-    <Content Include="bin\Debug\Telerik.Windows.Data.dll" />
-    <Content Include="bin\Debug\Telerik.Windows.Documents.dll" />
-    <Content Include="bin\Debug\Telerik.Windows.Documents.Fixed.dll" />
-    <Content Include="bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.dll" />
-    <Content Include="bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.dll" />
-    <Content Include="bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.dll" />
-    <Content Include="bin\Debug\Telerik.Windows.RadUploadHandler.dll" />
-    <Content Include="bin\Debug\Telerik.Windows.Zip.dll" />
-    <Content Include="bin\Debug\Twitterizer2.dll" />
-    <Content Include="bin\Debug\Twitterizer2.xml" />
-    <Content Include="bin\Debug\WebActivatorEx.dll" />
     <Content Include="bin\DevMagazine.Core.dll" />
     <Content Include="bin\DevMagazine.Core.pdb" />
     <Content Include="bin\de\Microsoft.Data.Edm.resources.dll" />
@@ -593,11 +440,17 @@
     <Content Include="bin\SitefinityWebApp.ResourcePackages.SemanticUI.dll" />
     <Content Include="bin\SitefinityWebApp.ResourcePackages.SemanticUI.pdb" />
     <Content Include="bin\stdole.dll" />
+    <Content Include="bin\System.Configuration.dll" />
+    <Content Include="bin\System.Data.DataSetExtensions.dll" />
+    <Content Include="bin\System.Data.dll" />
+    <Content Include="bin\System.dll" />
     <Content Include="bin\System.Net.Http.Formatting.dll" />
     <Content Include="bin\System.Net.Http.Formatting.xml" />
+    <Content Include="bin\System.Runtime.Serialization.dll" />
     <Content Include="bin\System.Spatial.dll" />
     <Content Include="bin\System.Spatial.xml" />
     <Content Include="bin\System.Web.Cors.dll" />
+    <Content Include="bin\System.Web.dll" />
     <Content Include="bin\System.Web.Helpers.dll" />
     <Content Include="bin\System.Web.Helpers.xml" />
     <Content Include="bin\System.Web.Http.Cors.dll" />
