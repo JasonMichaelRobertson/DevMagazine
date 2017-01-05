@@ -376,9 +376,9 @@
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Users\JasonRobertson\Source\Repos\feather-samples\DevMagazineSite\DevMagazine.Core\bin\Debug\System.Web.Mvc.dll</HintPath>
+      <HintPath>..\..\DevMagazineSite\DevMagazine.Core\bin\Debug\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.OData">
       <HintPath>bin\System.Web.OData.dll</HintPath>
@@ -1253,6 +1253,8 @@
     <Content Include="App_Data\RadSpell\fr-FR.tdf" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\Sitefinity\Temp\Libraries\" />
+    <Folder Include="App_Data\Storage\FileSystem\" />
     <Folder Include="Mvc\Models\Author\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
@@ -1665,6 +1667,79 @@
     <Content Include="SampleTemplate.cshtml" />
     <Content Include="OpenAccessNuGet.targets" />
     <Content Include="packages.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\AnalyticsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\AppearanceConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\CatalogConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\CatalogConfig.contentViewControls.ProductsBackendDefinitionName.views.ProductsBackendMaster.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\CatalogConfig.contentViewControls.ProductTypesBackendDefinitionName.views.ProductTypesBackendMaster.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\CommentsModuleConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\ContentViewConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DataConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DigitalExperienceCloudConnectorConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Authors.Author_AthrBckndLst.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Authors.Author_BckndDplctVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Authors.Author_BckndInsrtVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Authors.Author_hrBckndEdtVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Issues.Issue_BckndDplctVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Issues.Issue_BckndInsrtVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Issues.Issue_IssuBckndLst.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Issues.Issue_ssBckndEdtVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Project.Bug-577081995_BugBackndLst.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Project.Project-2116437337_rjctBckndLst.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\EcommerceConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\FormsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\ForumsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\LibrariesConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\MigrationConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.contentViewControls.NewsBackend.views.NewsBackendDuplicate.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.contentViewControls.NewsBackend.views.NewsBackendEdit.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.contentViewControls.NewsBackend.views.NewsBackendInsert.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.contentViewControls.NewsBackend.views.NewsBackendPreview.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.contentViewControls.NewsBackend.views.NewsBackendVersionPreview.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\PagesConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\PersonalizationConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\ProjectConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\RecycleBinConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\ResourcesConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\SearchConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\SecurityConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\SystemConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\ToolboxesConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\TranslationsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\VersionConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\VirtualPathSettingsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\WorkflowConfig.config" />
+    <Content Include="App_Data\Sitefinity\Logs\72bc9244-970a-4428-9a0c-4ae0481c8d05Error.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Error.2016-12-04.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Error.2016-12-06.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Error.2016-12-07.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Error.2016-12-08.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Error.2017-01-03.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Error.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Trace.2016-12-08.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Trace.2017-01-03.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Trace.log" />
+    <Content Include="App_Data\Sitefinity\Logs\UpgradeTrace.2016-12-04.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\UpgradeTrace.2016-12-08.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\UpgradeTrace.2017-01-03.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\UpgradeTrace.log" />
+    <Content Include="App_Data\Sitefinity\Search\articles\_0.cfs" />
+    <Content Include="App_Data\Sitefinity\Search\main\segments.gen" />
+    <Content Include="App_Data\Sitefinity\Sitefinity.lic" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Detail.DetailPage.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\List.BlogPostList.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Breadcrumb.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Write.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Card.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Card.Hero.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Card.Simple.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\ChangePassword.ChangePassword.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Read.Default.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Write.Default_Inline.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Comments.Default - Copy.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\CommentsCount.Default - Copy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AuthorWidget\AuthorWidget.csproj">
