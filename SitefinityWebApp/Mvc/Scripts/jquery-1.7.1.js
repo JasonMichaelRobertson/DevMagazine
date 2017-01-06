@@ -1,5 +1,6 @@
 ﻿/*!
- * jQuery JavaScript Library v1.7.1
+ * JR* root/MVC Areas Scripts folder
+ *
  * http://jquery.com/
  *
  * Copyright 2011, John Resig
