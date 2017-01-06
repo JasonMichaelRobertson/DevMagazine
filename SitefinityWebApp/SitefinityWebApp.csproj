@@ -376,9 +376,9 @@
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Users\JasonRobertson\Source\Repos\feather-samples\DevMagazineSite\DevMagazine.Core\bin\Debug\System.Web.Mvc.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.OData">
       <HintPath>bin\System.Web.OData.dll</HintPath>
@@ -950,6 +950,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ajax-loader.gif" />
+    <Content Include="Areas\BugTracker\Scripts\jquery-1.7.1.js" />
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Default.aspx" />
