@@ -1,5 +1,5 @@
 ﻿/*!
- * JR* root Areas/BugTracker Scripts folder
+ * JR* root Scripts folder
  *
  * jQuery JavaScript Library v1.7.1
  * http://jquery.com/

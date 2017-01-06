@@ -950,7 +950,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ajax-loader.gif" />
+    <Content Include="Areas\BugTracker\Scripts - Copy\jquery-1.7.1.js" />
     <Content Include="Areas\BugTracker\Scripts\jquery-1.7.1.js" />
+    <Content Include="Areas\BugTracker\Views\Scripts\jquery-1.7.1.js" />
+    <Content Include="Areas\Scripts\jquery-1.7.1.js" />
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Default.aspx" />
@@ -961,6 +964,7 @@
     <Content Include="Mvc\Images\Facebook.png" />
     <Content Include="Mvc\Images\facebook_white.png" />
     <Content Include="Mvc\Images\next.png" />
+    <Content Include="Mvc\Scripts\jquery-1.7.1.js" />
     <Content Include="Mvc\Scripts\SocialWidgetsScripts.js" />
     <Content Include="Mvc\Styles\FacebookStyle.css" />
     <Content Include="ResourcePackages\BootstrapCustom\assets\dist\css\styles.css" />
@@ -1124,6 +1128,7 @@
     <Content Include="ResourcePackages\Foundation\client-components\fields\html-field\sf-html-field.js" />
     <Content Include="ResourcePackages\SemanticUI\client-components\fields\html-field\sf-html-field.js" />
     <Content Include="ResourcePackages\SemanticUI\result.css" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Silverlight.js" />
     <Content Include="Sitefinity\Default.aspx" />
     <Content Include="Sitefinity\Public\Services\Thunder\ThunderService.svc" />

@@ -1,9 +1,15 @@
 ﻿@using Telerik.Web.Mvc.UI
 @using Telerik.Sitefinity.Model
 @using Telerik.Sitefinity.DynamicModules.Model;
+
 @model IQueryable<DynamicContent>
+
+@{
+    Layout = "~/Areas/BugTracker/Views/Shared/BugTrackerLayout.cshtml";
+}
+
 <h2>
-    Bugs
+    View Bug
 </h2>
 @(Html.Telerik().Grid(Model)
                      .Name("Grid")
