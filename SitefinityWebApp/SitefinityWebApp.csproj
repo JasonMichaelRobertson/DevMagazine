@@ -376,9 +376,9 @@
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <HintPath>..\..\..\..\Users\JasonRobertson\Source\Repos\feather-samples\DevMagazineSite\DevMagazine.Core\bin\Debug\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.OData">
       <HintPath>bin\System.Web.OData.dll</HintPath>
@@ -1665,8 +1665,6 @@
     <Content Include="ResourcePackages\SemanticUI\MVC\Views\Layouts\default.cshtml" />
     <Content Include="ResourcePackages\SemanticUI\razorgenerator.directives" />
     <Content Include="SampleTemplate.cshtml" />
-    <Content Include="OpenAccessNuGet.targets" />
-    <Content Include="packages.config" />
     <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Detail.DetailPage.cshtml" />
     <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\List.BlogPostList.cshtml" />
     <Content Include="ResourcePackages\Bootstrap\MVC\Views\Comments\Breadcrumb.cshtml" />
