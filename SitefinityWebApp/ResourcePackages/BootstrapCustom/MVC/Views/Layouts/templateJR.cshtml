@@ -7,14 +7,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <title>Template JR</title>
-    <link rel="stylesheet" href='~/ResourcePackages/BootstrapCustom/assets/dist/css/styles.css' type="text/css" />
+    <link rel="stylesheet" href='~/ResourcePackages/BootstrapCustom/assets/dist/css/styles.min.css' type="text/css" />
+    @Html.Script(ScriptRef.JQuery)
 </head>
 <body>
     <div class="sfPublicWrapper" id="PublicWrapper">
         <!-- header start -->
-        <header>            
-            @Html.SfPlaceHolder("Searchplaceholder1") <!-- header 100% --> 
-            @Html.SfPlaceHolder("Navigationplaceholder1") <!-- header 100% -->           
+        <header>                       
+
+            <div class="sf_cols navbar navbar-default js-nav-fixed">
+                @Html.SfPlaceHolder("Searchplaceholder1") <!-- header 100% -->
+                @Html.SfPlaceHolder("Navigationplaceholder1") <!-- header 100% -->
+            </div>
+
+
         </header>
         <!-- header end -->
             
@@ -40,7 +46,7 @@
         <!-- Footer end -->
             <!-- Footer end -->
     </div>
-
+  
     <script src="~/ResourcePackages/BootstrapCustom/assets/dist/js/all.min.js"></script>
     <script>
         $(document).ready(function () {
