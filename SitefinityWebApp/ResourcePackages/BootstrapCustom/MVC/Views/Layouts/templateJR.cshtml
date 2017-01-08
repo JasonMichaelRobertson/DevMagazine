@@ -12,84 +12,32 @@
 <body>
     <div class="sfPublicWrapper" id="PublicWrapper">
         <!-- header start -->
-        <header>
-            <div class="sf_cols navbar navbar-default js-nav-fixed">
-
-                <div class="pull-right Search">
-                    <label class="glyphicon glyphicon-search"></label>
-                    <input type="search" id="97a53e19-8155-4ba8-bb41-b7e9d9a6f392" class="js-search-field" value="">
-                </div>
-                <script src="/Frontend-Assembly/Telerik.Sitefinity.Frontend.Search/Mvc/Scripts/SearchBox/Search-box.js?package=BootstrapCustom" type="text/javascript"></script>
-                <script type="text/javascript">
-                    (function () {
-                        var serverData = {
-                            resultsUrl: '/search-results',
-                            indexCatalogue: 'main',
-                            wordsMode: 'AllWords',
-                            disableSuggestions: false,
-                            minSuggestionLength: '3',
-                            suggestionFields: 'Title,Content',
-                            language: '',
-                            suggestionsRoute: '/restapi/search/suggestions',
-                            searchTextBoxSelector: '#' + '97a53e19-8155-4ba8-bb41-b7e9d9a6f392',
-                            searchButtonSelector: '#' + 'f63fa34d-df04-4b99-9135-8b2b3c2cb907'
-                        };
-
-                        featherSearchBoxWidget(serverData);
-                    })();
-                </script>
-                @*<script src="/ScriptResource.axd?d=S5HUZdZcgRrz8ll7rmEj9pB65SNb7ezR3JYb2D7HLWCdsTxG0bi-hV-h3KLTYAharbAmYxpWhLAwnrqjYc3mV9Ffwjvh09D6Ldz12aVhR_rpg52Ze-BLYLhKUovFg96LVclDFo6tYP0PJwHKhhq-6ikN7eFRqC2SVA5mz7hdoG1lRtarMZRJ3ZTzCsiyjKpQ8dfXM9Q0Bq3nIhDMZJ5uQQ2&amp;t=4ba806a1" type="text/javascript"></script>
-                <script src="/ScriptResource.axd?d=yZnBdHp6OjO-k-Q3O2pqK3pRORVW92_EBgGXxmRwpkWCCR5p690eQVnwCfRE5hBT57_fof16MVwnfDA0plyyJN_pKeu2NDSwQ-zosnG5waEbm03zmIjI5kLzZ7Ib2izIALpDKuDivElCSfiUWse-Ox5qY8jZOv4H57jd_8bVyWDDmaBlaTVNQi-oxO-PLBnb7tc95eILFzc27YRlEVdo6Q2&amp;t=4ba806a1" type="text/javascript"></script>*@
-                <script src="/Frontend-Assembly/Telerik.Sitefinity.Frontend.Navigation/Mvc/Scripts/Navigation.js?package=BootstrapCustom" type="text/javascript"></script>
-
-                <div>
-                    <nav role="navigation">
-
-                        <div class="container-fluid">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a class="navbar-brand" href="/">DevMagazine</a>
-                            </div>
-
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav">
-                                    <li class=""><a href="/net" target="_self">.NET</a></li>
-                                    <li class=""><a href="/web" target="_self">Web</a></li>
-                                    <li class=""><a href="/testing" target="_self">Testing</a></li>
-                                    <li class=""><a href="/cloud" target="_self">Cloud</a></li>
-                                    <li class=""><a href="/desktop" target="_self">Desktop</a></li>
-                                    <li class=""><a href="/mobile" target="_self">Mobile</a></li>
-                                    <li class=" pull-right"><a href="/events" target="_self">Events</a></li>
-                                    <li class=" pull-right"><a href="/issues" target="_self">Issues</a></li>
-                                    <li class=""><a href="/testformpage" target="_self">TestFormPage</a></li>
-                                    <li class=""><a href="/BugTracker/Project" target="_self">Bug Tracker</a></li>
-                                </ul>
-                            </div><!-- /.navbar-collapse -->
-                        </div><!-- /.container-fluid -->
-                    </nav>
-                </div>
-            </div>
-            </header>
-            <!-- header end -->
+        <header>            
+            @Html.SfPlaceHolder("Searchplaceholder1") <!-- header 100% --> 
+            @Html.SfPlaceHolder("Navigationplaceholder1") <!-- header 100% -->           
+        </header>
+        <!-- header end -->
             
-            <!-- body start -->
-            @Html.SfPlaceHolder("Contentplaceholder1") <!-- body 15% 70%  15% -->
-            @Html.SfPlaceHolder("Contentplaceholder2") <!-- body 15% 70%  15% -->
-            @Html.SfPlaceHolder("Contentplaceholder3") <!-- body 15% 70%  15% -->
-            @Html.SfPlaceHolder("Contentplaceholder4") <!-- body 15% 70%  15% -->
-            @Html.SfPlaceHolder("Contentplaceholder5") <!-- body 15% 70%  15% -->
-            <!-- body end -->
-            <!-- Footer start -->
-            <footer>
+        <!-- body start -->
+        @Html.SfPlaceHolder("Contentplaceholder1") <!-- body 15% 70%  15% -->
+        @Html.SfPlaceHolder("Contentplaceholder2") <!-- body 15% 70%  15% -->
+        @Html.SfPlaceHolder("Contentplaceholder3") <!-- body 15% 70%  15% -->
+        @Html.SfPlaceHolder("Contentplaceholder4") <!-- body 15% 70%  15% -->
+        @Html.SfPlaceHolder("Contentplaceholder5") <!-- body 15% 70%  15% -->
+        <!-- body end -->
 
-                <a>FAQs</a> <a>Terms and Conditions</a> <a>Privacy</a> <a>Privacy</a> <a>Policy</a> <a>Contact us</a>
+        <!-- Footer start -->
+        <footer id="footer">        
+           
+            <ul id="navlist">
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>               
+                <li><a href="#">Contact us</a></li>
+            </ul>
 
-            </footer>
+        </footer>
+        <!-- Footer end -->
             <!-- Footer end -->
     </div>
 

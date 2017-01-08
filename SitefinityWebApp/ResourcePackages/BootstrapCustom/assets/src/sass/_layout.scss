@@ -53,3 +53,16 @@
     }
   }
 }
+
+#footer {
+    background-color: $navbar-default-bg;
+  border-color: $navbar-default-border;
+  color:#fff;
+}
+
+#navlist li
+{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;    
+}
