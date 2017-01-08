@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5105,7 +5105,7 @@ ul.sf-autocomplete {
       text-decoration: none; }
 
 .navbar-default {
-  background-color: #000;
+  background-color: #3F4543;
   border: none;
   border-radius: 0;
   min-height: 0;
@@ -5130,7 +5130,10 @@ ul.sf-autocomplete {
         padding-bottom: 37px;
         color: #fff;
         font-size: 20px;
-        transition: font-size .1s linear, padding-top .1s linear, padding-bottom .1s linear, background-color .15s ease-in; }
+        transition: font-size .1s linear,
+ padding-top .1s linear,
+ padding-bottom .1s linear,
+ background-color .15s ease-in; }
   .navbar-default .navbar-brand {
     font-weight: bold;
     padding-top: 38px;
@@ -5139,7 +5142,10 @@ ul.sf-autocomplete {
     font-size: 25px;
     font-family: "Roboto Light", Arial;
     height: auto;
-    transition: font-size .1s linear, padding-top .1s linear, padding-bottom .1s linear, background-color .15s ease-in; }
+    transition: font-size .1s linear,
+ padding-top .1s linear,
+ padding-bottom .1s linear,
+ background-color .15s ease-in; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
       color: #fff; }
   .navbar-default.is-fixed {
@@ -5237,15 +5243,15 @@ ul.sf-autocomplete {
     position: relative;
     text-decoration: none; }
     .Social a:before {
-      color: #000;
+      color: #3F4543;
       transition: color .15s ease-in; }
     .Social a:hover:before, .Social a:focus:before {
-      color: black; }
+      color: #0e100f; }
 
 .Btn {
   color: #fff;
-  background-color: #000;
-  border-color: black;
+  background-color: #3F4543;
+  border-color: #333836;
   display: inline-block;
   padding: 16px 67px;
   transition-property: background-color;
@@ -5259,8 +5265,8 @@ ul.sf-autocomplete {
   .Btn:hover, .Btn:focus, .Btn:active, .Btn.active,
   .open > .Btn.dropdown-toggle {
     color: #fff;
-    background-color: black;
-    border-color: black; }
+    background-color: #272a29;
+    border-color: #161817; }
   .Btn:active, .Btn.active,
   .open > .Btn.dropdown-toggle {
     background-image: none; }
@@ -5270,15 +5276,15 @@ ul.sf-autocomplete {
   fieldset[disabled] .Btn:focus,
   fieldset[disabled] .Btn:active,
   fieldset[disabled] .Btn.active {
-    background-color: #000;
-    border-color: black; }
+    background-color: #3F4543;
+    border-color: #333836; }
   .Btn .badge {
-    color: #000;
+    color: #3F4543;
     background-color: #fff; }
   .Btn:hover, .Btn:focus {
     color: #fff;
     text-decoration: none;
-    background-color: black; }
+    background-color: #0e100f; }
 
 .Btn--download-issue {
   position: relative;
@@ -5325,7 +5331,11 @@ ul.sf-autocomplete {
     border: none;
     background: transparent;
     cursor: pointer;
-    transition: font-size .1s linear, padding-top .1s linear, padding-bottom .1s linear, background-color .15s ease-in, width .2s linear;
+    transition: font-size .1s linear,
+ padding-top .1s linear,
+ padding-bottom .1s linear,
+ background-color .15s ease-in,
+ width .2s linear;
     outline: none;
     text-indent: 150%; }
     .Search > [type="search"]:focus {
@@ -5425,8 +5435,8 @@ ul.sf-autocomplete {
 .pagination > .active > span,
 .pagination > .active > span:hover,
 .pagination > .active > span:focus {
-  background-color: #000;
-  border-color: #000;
+  background-color: #3F4543;
+  border-color: #3F4543;
   border-radius: 50%; }
 
 .Form h2 {
@@ -5457,8 +5467,8 @@ ul.sf-autocomplete {
     display: none; }
   .k-scheduler .k-scheduler-toolbar .k-scheduler-views .k-state-selected, .k-scheduler .k-scheduler-toolbar .k-scheduler-views .k-state-selected.k-state-hover {
     color: #fff;
-    background-color: #000;
-    border-color: #000; }
+    background-color: #3F4543;
+    border-color: #3F4543; }
     .k-scheduler .k-scheduler-toolbar .k-scheduler-views .k-state-selected .k-link, .k-scheduler .k-scheduler-toolbar .k-scheduler-views .k-state-selected.k-state-hover .k-link {
       color: #fff; }
   .k-scheduler .k-scheduler-toolbar .k-scheduler-navigation > li,
@@ -5498,8 +5508,8 @@ ul.sf-autocomplete {
   color: #fff; }
 
 .k-scheduler .k-scheduler-layout .k-event {
-  background-color: #000 !important;
-  border-color: #000 !important; }
+  background-color: #3F4543 !important;
+  border-color: #3F4543 !important; }
 
 .sf-tabs {
   margin: 0 auto;
@@ -5526,7 +5536,7 @@ ul.sf-autocomplete {
       background-color: #ebebec; }
     .sf-tabs__link.active {
       color: #fff;
-      background-color: #000;
+      background-color: #3F4543;
       cursor: default; }
     .sf-tabs__item:first-child .sf-tabs__link {
       margin-left: 0;
