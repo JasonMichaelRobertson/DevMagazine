@@ -717,6 +717,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\AuthorWidget\bin\Telerik.Sitefinity.Personalization.dll</HintPath>
     </Reference>
+    <Reference Include="Telerik.Sitefinity.Personalization.Impl">
+      <HintPath>..\..\..\..\Program Files (x86)\Progress\Sitefinity\Projects\Default2\bin\Telerik.Sitefinity.Personalization.Impl.dll</HintPath>
+    </Reference>
     <Reference Include="Telerik.Sitefinity.PrecompiledPages.Backend.0, Version=9.2.6220.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Telerik.Sitefinity.PrecompiledPages.Backend.0.dll</HintPath>
