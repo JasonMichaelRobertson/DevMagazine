@@ -55,8 +55,8 @@
 }
 
 #footer {
-  background-color: $navbar-default-bg;
-  border-color: $navbar-default-border;
+  background-color: #3f4543;
+  border-color:#3f4543;
   color:#fff;
 }
 
@@ -64,5 +64,13 @@
 {
     display: inline;
     list-style-type:none;
-    padding-right: 20px;    
+    padding-right: 20px;   
+    color:#fff; 
+}
+
+#navlist li a {
+    color:#fff;
+    text-decoration:none;
+    font-family:Calibri, Arial, Verdana;
+    font-size:18px;
 }

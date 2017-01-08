@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -4877,14 +4877,21 @@ hr {
       margin-top: 0; } }
 
 #footer {
-  background-color: #777;
-  border-color: #666666;
+  background-color: #3f4543;
+  border-color: #3f4543;
   color: #fff; }
 
 #navlist li {
   display: inline;
   list-style-type: none;
-  padding-right: 20px; }
+  padding-right: 20px;
+  color: #fff; }
+
+#navlist li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Calibri, Arial, Verdana;
+  font-size: 18px; }
 
 .u-mt-5 {
   margin-top: -50px; }
@@ -5140,7 +5147,10 @@ ul.sf-autocomplete {
         padding-bottom: 37px;
         color: #fff;
         font-size: 20px;
-        transition: font-size .1s linear, padding-top .1s linear, padding-bottom .1s linear, background-color .15s ease-in; }
+        transition: font-size .1s linear,
+ padding-top .1s linear,
+ padding-bottom .1s linear,
+ background-color .15s ease-in; }
   .navbar-default .navbar-brand {
     font-weight: bold;
     padding-top: 38px;
@@ -5149,8 +5159,25 @@ ul.sf-autocomplete {
     font-size: 25px;
     font-family: "Roboto Light", Arial;
     height: auto;
-    transition: font-size .1s linear, padding-top .1s linear, padding-bottom .1s linear, background-color .15s ease-in; }
+    transition: font-size .1s linear,
+ padding-top .1s linear,
+ padding-bottom .1s linear,
+ background-color .15s ease-in; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+      color: #fff; }
+  .navbar-default .navbar-brand-medium {
+    font-weight: bold;
+    padding-top: 38px;
+    padding-bottom: 37px;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto Light", Arial;
+    height: auto;
+    transition: font-size .1s linear,
+ padding-top .1s linear,
+ padding-bottom .1s linear,
+ background-color .15s ease-in; }
+    .navbar-default .navbar-brand-medium:hover, .navbar-default .navbar-brand-medium:focus {
       color: #fff; }
   .navbar-default.is-fixed {
     position: fixed;
@@ -5165,6 +5192,10 @@ ul.sf-autocomplete {
       padding-bottom: 10px;
       font-size: 16px; }
     .navbar-default.is-fixed .navbar-brand {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 18px; }
+    .navbar-default.is-fixed .navbar-brand-medium {
       padding-top: 10px;
       padding-bottom: 10px;
       font-size: 18px; }
@@ -5199,6 +5230,12 @@ ul.sf-autocomplete {
       padding-bottom: 10px;
       font-size: 18px; }
       .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+        background-color: transparent; }
+    .navbar-default .navbar-brand-medium {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 11px; }
+      .navbar-default .navbar-brand-medium:hover, .navbar-default .navbar-brand-medium:focus {
         background-color: transparent; }
     .navbar-default .navbar-right {
       clear: both;
@@ -5335,7 +5372,11 @@ ul.sf-autocomplete {
     border: none;
     background: transparent;
     cursor: pointer;
-    transition: font-size .1s linear, padding-top .1s linear, padding-bottom .1s linear, background-color .15s ease-in, width .2s linear;
+    transition: font-size .1s linear,
+ padding-top .1s linear,
+ padding-bottom .1s linear,
+ background-color .15s ease-in,
+ width .2s linear;
     outline: none;
     text-indent: 150%; }
     .Search > [type="search"]:focus {
