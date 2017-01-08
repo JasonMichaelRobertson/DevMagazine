@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "ResourcePackages/BootstrapCustom/assets/dist/css/styles.min.css",
+    "inputFiles": [
+      "ResourcePackages/BootstrapCustom/assets/dist/css/styles.css"
+    ]
+  }
+]
