@@ -781,6 +781,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Telerik.Sitefinity.Services.RecycleBin.Impl.dll</HintPath>
     </Reference>
+    <Reference Include="Telerik.Sitefinity.Services.Statistics">
+      <HintPath>..\..\..\..\Program Files (x86)\Progress\Sitefinity\Projects\Default2\bin\Telerik.Sitefinity.Services.Statistics.dll</HintPath>
+    </Reference>
     <Reference Include="Telerik.Sitefinity.Services.Statistics.Impl, Version=9.2.6220.0, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Telerik.Sitefinity.Services.Statistics.Impl.dll</HintPath>
