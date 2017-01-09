@@ -9,17 +9,41 @@
 @Html.Script(Url.WidgetContent("Mvc/Scripts/Navigation.js"))
 
 <div class="@Model.CssClass">
+
+    <div class="row" data-sf-element="Row" data-placeholder-label="BoostrapCustom 1-10-1">
+        <div class="sf_colsIn col-md-1" data-sf-element="Column 1" data-placeholder-label="Column 1">
+        </div>
+        <div class="sf_colsIn col-md-10" data-sf-element="Column 2" data-placeholder-label="Column 2">
+            <div class="sf_colsIn col-md-2" data-sf-element="Column 1" data-placeholder-label="Column 2">
+                <a class="navbar-brand" href="/">Momentum Energy</a>
+            </div>
+            <div class="sf_colsIn col-md-2" data-sf-element="Column 2" data-placeholder-label="Column 2">
+                
+            </div>
+            <div class="sf_colsIn col-md-2" data-sf-element="Column 3" data-placeholder-label="Column 2">
+                
+            </div>
+            <div class="sf_colsIn col-md-2" data-sf-element="Column 4" data-placeholder-label="Column 2">
+                <a class="navbar-brand-medium" href="/">Messages</a>
+            </div>
+            <div class="sf_colsIn col-md-2" data-sf-element="Column 5" data-placeholder-label="Column 2">
+                <a class="navbar-brand-medium" href="/">Jimmy Jones</a>
+            </div>
+        </div>
+        <div class="sf_colsIn col-md-1" data-sf-element="Column 3" data-placeholder-label="Column 3">
+        </div>
+    </div>
+
     <nav role="navigation">
 
         <div class="container-fluid">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/">DevMagazine</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>             
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -28,7 +52,7 @@
                     {
                         @RenderRootLevelNode(node);
                     }
-              </ul>
+                </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>

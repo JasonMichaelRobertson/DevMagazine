@@ -53,3 +53,24 @@
     }
   }
 }
+
+#footer {
+  background-color: #3f4543;
+  border-color:#3f4543;
+  color:#fff;
+}
+
+#navlist li
+{
+    display: inline;
+    list-style-type:none;
+    padding-right: 20px;   
+    color:#fff; 
+}
+
+#navlist li a {
+    color:#fff;
+    text-decoration:none;
+    font-family:Calibri, Arial, Verdana;
+    font-size:18px;
+}

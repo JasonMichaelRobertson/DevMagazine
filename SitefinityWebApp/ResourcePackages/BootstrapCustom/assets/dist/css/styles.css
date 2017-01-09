@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -3523,8 +3523,8 @@ tbody.collapse.in {
         margin-right: 0; } }
 
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7; }
+  background-color: #777;
+  border-color: #666666; }
   .navbar-default .navbar-brand {
     color: #777; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -3539,7 +3539,7 @@ tbody.collapse.in {
       background-color: transparent; }
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
-    background-color: #e7e7e7; }
+    background-color: #666666; }
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
     background-color: transparent; }
@@ -3551,9 +3551,9 @@ tbody.collapse.in {
       background-color: #fff; }
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #e7e7e7; }
+    border-color: #666666; }
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #e7e7e7;
+    background-color: #666666;
     color: #555; }
   @media (max-width: 700px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -3563,7 +3563,7 @@ tbody.collapse.in {
         background-color: transparent; }
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555;
-      background-color: #e7e7e7; }
+      background-color: #666666; }
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
       background-color: transparent; } }
@@ -4876,6 +4876,23 @@ hr {
     .row ~ .row {
       margin-top: 0; } }
 
+#footer {
+  background-color: #3f4543;
+  border-color: #3f4543;
+  color: #fff; }
+
+#navlist li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+  color: #fff; }
+
+#navlist li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Calibri, Arial, Verdana;
+  font-size: 18px; }
+
 .u-mt-5 {
   margin-top: -50px; }
 
@@ -5105,7 +5122,7 @@ ul.sf-autocomplete {
       text-decoration: none; }
 
 .navbar-default {
-  background-color: #596c9b;
+  background-color: #3F4543;
   border: none;
   border-radius: 0;
   min-height: 0;
@@ -5130,7 +5147,10 @@ ul.sf-autocomplete {
         padding-bottom: 37px;
         color: #fff;
         font-size: 20px;
-        transition: font-size .1s linear, padding-top .1s linear, padding-bottom .1s linear, background-color .15s ease-in; }
+        transition: font-size .1s linear,
+ padding-top .1s linear,
+ padding-bottom .1s linear,
+ background-color .15s ease-in; }
   .navbar-default .navbar-brand {
     font-weight: bold;
     padding-top: 38px;
@@ -5139,8 +5159,25 @@ ul.sf-autocomplete {
     font-size: 25px;
     font-family: "Roboto Light", Arial;
     height: auto;
-    transition: font-size .1s linear, padding-top .1s linear, padding-bottom .1s linear, background-color .15s ease-in; }
+    transition: font-size .1s linear,
+ padding-top .1s linear,
+ padding-bottom .1s linear,
+ background-color .15s ease-in; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+      color: #fff; }
+  .navbar-default .navbar-brand-medium {
+    font-weight: bold;
+    padding-top: 38px;
+    padding-bottom: 37px;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto Light", Arial;
+    height: auto;
+    transition: font-size .1s linear,
+ padding-top .1s linear,
+ padding-bottom .1s linear,
+ background-color .15s ease-in; }
+    .navbar-default .navbar-brand-medium:hover, .navbar-default .navbar-brand-medium:focus {
       color: #fff; }
   .navbar-default.is-fixed {
     position: fixed;
@@ -5155,6 +5192,10 @@ ul.sf-autocomplete {
       padding-bottom: 10px;
       font-size: 16px; }
     .navbar-default.is-fixed .navbar-brand {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 18px; }
+    .navbar-default.is-fixed .navbar-brand-medium {
       padding-top: 10px;
       padding-bottom: 10px;
       font-size: 18px; }
@@ -5189,6 +5230,12 @@ ul.sf-autocomplete {
       padding-bottom: 10px;
       font-size: 18px; }
       .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+        background-color: transparent; }
+    .navbar-default .navbar-brand-medium {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 11px; }
+      .navbar-default .navbar-brand-medium:hover, .navbar-default .navbar-brand-medium:focus {
         background-color: transparent; }
     .navbar-default .navbar-right {
       clear: both;
@@ -5237,15 +5284,15 @@ ul.sf-autocomplete {
     position: relative;
     text-decoration: none; }
     .Social a:before {
-      color: #596c9b;
+      color: #3F4543;
       transition: color .15s ease-in; }
     .Social a:hover:before, .Social a:focus:before {
-      color: #343f5a; }
+      color: #0e100f; }
 
 .Btn {
   color: #fff;
-  background-color: #596c9b;
-  border-color: #50618b;
+  background-color: #3F4543;
+  border-color: #333836;
   display: inline-block;
   padding: 16px 67px;
   transition-property: background-color;
@@ -5259,8 +5306,8 @@ ul.sf-autocomplete {
   .Btn:hover, .Btn:focus, .Btn:active, .Btn.active,
   .open > .Btn.dropdown-toggle {
     color: #fff;
-    background-color: #46557b;
-    border-color: #394664; }
+    background-color: #272a29;
+    border-color: #161817; }
   .Btn:active, .Btn.active,
   .open > .Btn.dropdown-toggle {
     background-image: none; }
@@ -5270,15 +5317,15 @@ ul.sf-autocomplete {
   fieldset[disabled] .Btn:focus,
   fieldset[disabled] .Btn:active,
   fieldset[disabled] .Btn.active {
-    background-color: #596c9b;
-    border-color: #50618b; }
+    background-color: #3F4543;
+    border-color: #333836; }
   .Btn .badge {
-    color: #596c9b;
+    color: #3F4543;
     background-color: #fff; }
   .Btn:hover, .Btn:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #343f5a; }
+    background-color: #0e100f; }
 
 .Btn--download-issue {
   position: relative;
@@ -5325,7 +5372,11 @@ ul.sf-autocomplete {
     border: none;
     background: transparent;
     cursor: pointer;
-    transition: font-size .1s linear, padding-top .1s linear, padding-bottom .1s linear, background-color .15s ease-in, width .2s linear;
+    transition: font-size .1s linear,
+ padding-top .1s linear,
+ padding-bottom .1s linear,
+ background-color .15s ease-in,
+ width .2s linear;
     outline: none;
     text-indent: 150%; }
     .Search > [type="search"]:focus {
@@ -5425,8 +5476,8 @@ ul.sf-autocomplete {
 .pagination > .active > span,
 .pagination > .active > span:hover,
 .pagination > .active > span:focus {
-  background-color: #596c9b;
-  border-color: #596c9b;
+  background-color: #3F4543;
+  border-color: #3F4543;
   border-radius: 50%; }
 
 .Form h2 {
@@ -5457,8 +5508,8 @@ ul.sf-autocomplete {
     display: none; }
   .k-scheduler .k-scheduler-toolbar .k-scheduler-views .k-state-selected, .k-scheduler .k-scheduler-toolbar .k-scheduler-views .k-state-selected.k-state-hover {
     color: #fff;
-    background-color: #596c9b;
-    border-color: #596c9b; }
+    background-color: #3F4543;
+    border-color: #3F4543; }
     .k-scheduler .k-scheduler-toolbar .k-scheduler-views .k-state-selected .k-link, .k-scheduler .k-scheduler-toolbar .k-scheduler-views .k-state-selected.k-state-hover .k-link {
       color: #fff; }
   .k-scheduler .k-scheduler-toolbar .k-scheduler-navigation > li,
@@ -5498,8 +5549,8 @@ ul.sf-autocomplete {
   color: #fff; }
 
 .k-scheduler .k-scheduler-layout .k-event {
-  background-color: #596c9b !important;
-  border-color: #596c9b !important; }
+  background-color: #3F4543 !important;
+  border-color: #3F4543 !important; }
 
 .sf-tabs {
   margin: 0 auto;
@@ -5526,7 +5577,7 @@ ul.sf-autocomplete {
       background-color: #ebebec; }
     .sf-tabs__link.active {
       color: #fff;
-      background-color: #596c9b;
+      background-color: #3F4543;
       cursor: default; }
     .sf-tabs__item:first-child .sf-tabs__link {
       margin-left: 0;

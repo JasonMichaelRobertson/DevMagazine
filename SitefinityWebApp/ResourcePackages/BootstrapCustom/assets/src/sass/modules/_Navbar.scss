@@ -62,6 +62,25 @@
     }
   }
 
+  .navbar-brand-medium {
+    font-weight: bold;
+  	padding-top: 38px;
+  	padding-bottom: 37px;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto Light", Arial;
+    height: auto;
+    transition: font-size .1s linear,
+                padding-top .1s linear,
+                padding-bottom .1s linear,
+                background-color .15s ease-in;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
+  }
+
   &.is-fixed {
     position: fixed;
     top: 0;
@@ -80,6 +99,12 @@
     }
 
     .navbar-brand {
+      padding-top: 10px;
+      padding-bottom: 10px;
+	    font-size:18px;
+    }
+
+    .navbar-brand-medium {
       padding-top: 10px;
       padding-bottom: 10px;
 	    font-size:18px;
@@ -133,6 +158,17 @@
       padding-top: 10px;
       padding-bottom: 10px;
       font-size:18px;
+
+      &:hover,
+      &:focus {
+        background-color:transparent;
+      }
+    }
+
+    .navbar-brand-medium {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size:11px;
 
       &:hover,
       &:focus {

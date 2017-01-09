@@ -42,7 +42,7 @@
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DevMagazineSite\DevMagazine.Core\bin\Debug\System.Web.Mvc.dll</HintPath>
+      <HintPath>..\..\DevMagazineSiteNew\DevMagazine.Core\bin\Debug\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
       <Private>True</Private>
@@ -63,7 +63,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Telerik.Sitefinity">
-      <HintPath>bin\Release\Telerik.Sitefinity.dll</HintPath>
+      <HintPath>bin\Telerik.Sitefinity.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Sitefinity.Frontend">
       <HintPath>..\SitefinityWebApp\bin\Telerik.Sitefinity.Frontend.dll</HintPath>
@@ -77,26 +77,6 @@
     <Compile Include="Mvc\Models\MessageWidgetModel.cs" />
     <EmbeddedResource Include="Mvc\Views\MessageWidget\Default.cshtml" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="bin\Microsoft.CSharp.dll" />
-    <Content Include="bin\MyFirstMvcWidget.dll" />
-    <Content Include="bin\MyFirstMvcWidget.pdb" />
-    <Content Include="bin\System.Configuration.dll" />
-    <Content Include="bin\System.Data.DataSetExtensions.dll" />
-    <Content Include="bin\System.Data.dll" />
-    <Content Include="bin\System.dll" />
-    <Content Include="bin\System.Net.Http.dll" />
-    <Content Include="bin\System.Runtime.Serialization.dll" />
-    <Content Include="bin\System.Web.dll" />
-    <Content Include="bin\System.Web.Helpers.dll" />
-    <Content Include="bin\System.Web.Mvc.dll" />
-    <Content Include="bin\System.Web.WebPages.Razor.dll" />
-    <Content Include="bin\System.Xml.dll" />
-    <Content Include="bin\System.Xml.Linq.dll" />
-    <Content Include="bin\Telerik.Sitefinity.dll" />
-    <Content Include="bin\Telerik.Sitefinity.Frontend.dll" />
-    <Content Include="bin\Telerik.Sitefinity.Mvc.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

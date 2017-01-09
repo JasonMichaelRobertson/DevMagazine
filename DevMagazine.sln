@@ -7,13 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitefinityWebApp", "Sitefin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevMagazine.Core", "DevMagazine.Core\DevMagazine.Core.csproj", "{3F55D63D-E9A7-46F6-9447-8AAD1651A606}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{313577CE-869F-4B21-BEE1-BD133AF9D3E7}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstMvcWidget", "MyFirstMvcWidget\MyFirstMvcWidget.csproj", "{173BFCAD-4A50-455A-A54F-24479C0F4321}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorWidget", "AuthorWidget\AuthorWidget.csproj", "{D19D263C-1D31-49BB-8F86-B32C958DB3B5}"

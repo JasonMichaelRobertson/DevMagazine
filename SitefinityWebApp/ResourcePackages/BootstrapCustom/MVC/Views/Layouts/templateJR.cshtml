@@ -8,14 +8,66 @@
     <meta charset="utf-8" />
     <title>Template JR</title>
     <link rel="stylesheet" href='~/ResourcePackages/BootstrapCustom/assets/dist/css/styles.min.css' type="text/css" />
+    @Html.Script(ScriptRef.JQuery)
 </head>
 <body>
-    <div class="sfPublicWrapper" id="PublicWrapper">		
-        @Html.SfPlaceHolder("Contentplaceholder1")		
+    <div class="sfPublicWrapper" id="PublicWrapper">
+        <!-- header start -->
+        <header>                       
+
+            <div class="sf_cols navbar navbar-default js-nav-fixed">
+                @Html.SfPlaceHolder("Searchplaceholder1") <!-- header 100% -->
+                @Html.SfPlaceHolder("Navigationplaceholder1") <!-- header 100% -->
+            </div>
+
+
+        </header>
+        <!-- header end -->
+            
+        <!-- body start -->
+        @Html.SfPlaceHolder("Contentplaceholder1") <!-- body 15% 70%  15% -->
+        @Html.SfPlaceHolder("Contentplaceholder2") <!-- body 15% 70%  15% -->
+        @Html.SfPlaceHolder("Contentplaceholder3") <!-- body 15% 70%  15% -->
+        @Html.SfPlaceHolder("Contentplaceholder4") <!-- body 15% 70%  15% -->
+        @Html.SfPlaceHolder("Contentplaceholder5") <!-- body 15% 70%  15% -->
+        <!-- body end -->
+
+        <!-- Footer start -->
+        <footer id="footer">        
+           
+            <div class="row" data-sf-element="Row">
+                <div class="sf_colsIn col-md-3" data-sf-element="Column 1" data-placeholder-label="Column 1">
+                </div>
+                <div class="sf_colsIn col-md-6" data-sf-element="Column 2" data-placeholder-label="Column 2">
+                    <ul id="navlist">
+                        <li><a class="navbar-brand" href="#">FAQs</a></li>
+                        <li><a class="navbar-brand" href="#">Terms and Conditions</a></li>
+                        <li><a class="navbar-brand" href="#">Privacy Policy</a></li>
+                        <li><a class="navbar-brand" href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="sf_colsIn col-md-3" data-sf-element="Column 3" data-placeholder-label="Column 3">
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            
+
+        </footer>
+        <!-- Footer end -->
+            <!-- Footer end -->
     </div>
-
-	<script src="~/ResourcePackages/BootstrapCustom/assets/dist/js/all.min.js"></script>
-
+  
+    <script src="~/ResourcePackages/BootstrapCustom/assets/dist/js/all.min.js"></script>
     <script>
         $(document).ready(function () {
             $(".js-nav-fixed").fixit({
@@ -26,7 +78,7 @@
                 renderDummy: true
             });
         });
-
     </script>
 </body>
+
 </html>
