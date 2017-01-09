@@ -956,6 +956,27 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ajax-loader.gif" />
+    <Content Include="Build\FeatherPrecompilation.targets" />
+    <Content Include="Build\RazorGenerator.MsBuild\build\RazorGenerator.MsBuild.targets" />
+    <Content Include="Build\RazorGenerator.MsBuild\RazorGenerator.MsBuild.2.4.1.nupkg" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\RazorGenerator.Core.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\RazorGenerator.MsBuild.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v1\RazorGenerator.Core.v1.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v1\System.Web.Mvc.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v1\System.Web.Razor.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v1\System.Web.WebPages.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v1\System.Web.WebPages.Razor.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v2\RazorGenerator.Core.V2.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v2\System.Web.Mvc.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v2\System.Web.Razor.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v2\System.Web.WebPages.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v2\System.Web.WebPages.Razor.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v3\RazorGenerator.Core.V3.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v3\System.Web.Mvc.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v3\System.Web.Razor.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v3\System.Web.WebPages.Deployment.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v3\System.Web.WebPages.dll" />
+    <Content Include="Build\RazorGenerator.MsBuild\tools\v3\System.Web.WebPages.Razor.dll" />
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Default.aspx" />
@@ -1489,6 +1510,8 @@
     <Content Include="Sitefinity\Services\Versioning\HistoryService.svc" />
     <Content Include="Sitefinity\Services\Workflow\WorkflowDefinitionService.svc" />
     <Content Include="Sitefinity\Services\Workflow\WorkflowService.svc" />
+    <Content Include="Tools\Microsoft.Bcl.Build.targets" />
+    <Content Include="Tools\Microsoft.Bcl.Build.Tasks.dll" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
     </Content>
