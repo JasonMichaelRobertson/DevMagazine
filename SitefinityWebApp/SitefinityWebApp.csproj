@@ -1013,10 +1013,11 @@
     <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\container-fluid.html" />
     <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\container.html" />
     <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\empty-placeholder.html" />
+    <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\grid-1+10+1-new.html" />
+    <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\grid-1+10+1.html" />
     <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\grid-12.html" />
     <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\grid-2+3+2+3+2.html" />
     <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\grid-3+3+3+3.html" />
-    <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\grid-1+10+1.html" />
     <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\grid-3+6+3.html" />
     <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\grid-3+9.html" />
     <Content Include="ResourcePackages\BootstrapCustom\GridSystem\Templates\grid-4+4+4.html" />
