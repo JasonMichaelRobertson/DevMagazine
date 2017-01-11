@@ -1771,6 +1771,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="2017-01-04-devmagazin.bak" />
+    <Content Include="2017-01-11-devmagazine.bak" />
     <None Include="App_Data\GeoLocation\GeoLiteCity.dat" />
     <Content Include="Areas\BugTracker\Views\Bug\BugForm.cshtml" />
     <Content Include="Areas\BugTracker\Views\Bug\BugMaster.cshtml" />
