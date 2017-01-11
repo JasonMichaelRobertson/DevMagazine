@@ -78,6 +78,64 @@
     <EmbeddedResource Include="Mvc\Views\MessageWidget\Default.cshtml" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\DDay.Collections.dll" />
+    <Content Include="bin\DDay.iCal.dll" />
+    <Content Include="bin\HtmlSanitizationLibrary.dll" />
+    <Content Include="bin\Microsoft.CSharp.dll" />
+    <Content Include="bin\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.xml" />
+    <Content Include="bin\MyFirstMvcWidget.dll" />
+    <Content Include="bin\MyFirstMvcWidget.pdb" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Ninject.dll" />
+    <Content Include="bin\Ninject.Web.Common.dll" />
+    <Content Include="bin\RazorEngine.dll" />
+    <Content Include="bin\RazorGenerator.Mvc.dll" />
+    <Content Include="bin\ServiceStack.Client.dll" />
+    <Content Include="bin\ServiceStack.Common.dll" />
+    <Content Include="bin\ServiceStack.dll" />
+    <Content Include="bin\ServiceStack.Interfaces.dll" />
+    <Content Include="bin\ServiceStack.Text.dll" />
+    <Content Include="bin\System.Data.DataSetExtensions.dll" />
+    <Content Include="bin\System.Data.dll" />
+    <Content Include="bin\System.dll" />
+    <Content Include="bin\System.Net.Http.dll" />
+    <Content Include="bin\System.Web.dll" />
+    <Content Include="bin\System.Web.Helpers.dll" />
+    <Content Include="bin\System.Web.Helpers.xml" />
+    <Content Include="bin\System.Web.Mvc.dll" />
+    <Content Include="bin\System.Web.Mvc.xml" />
+    <Content Include="bin\System.Web.Razor.dll" />
+    <Content Include="bin\System.Web.WebPages.Deployment.dll" />
+    <Content Include="bin\System.Web.WebPages.dll" />
+    <Content Include="bin\System.Web.WebPages.Razor.dll" />
+    <Content Include="bin\System.Web.WebPages.Razor.xml" />
+    <Content Include="bin\System.Xml.dll" />
+    <Content Include="bin\System.Xml.Linq.dll" />
+    <Content Include="bin\Telerik.OpenAccess.35.Extensions.dll" />
+    <Content Include="bin\Telerik.OpenAccess.dll" />
+    <Content Include="bin\Telerik.Sitefinity.ContentModules.dll" />
+    <Content Include="bin\Telerik.Sitefinity.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.Data.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Frontend.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Model.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Mvc.dll" />
+    <Content Include="bin\Telerik.Sitefinity.RecurrentRules.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Resources.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Comments.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Comments.Impl.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Events.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Services.Notifications.dll" />
+    <Content Include="bin\Telerik.Sitefinity.SiteSync.dll" />
+    <Content Include="bin\Telerik.Sitefinity.Utilities.dll" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
