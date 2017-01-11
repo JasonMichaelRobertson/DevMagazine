@@ -410,8 +410,7 @@
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\System.Web.WebPages.Razor.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\..\..\Program Files (x86)\Progress\Sitefinity\Projects\Default2\bin\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows">
       <HintPath>bin\System.Windows.dll</HintPath>
@@ -1375,9 +1374,6 @@
     <Content Include="ResourcePackages\Bootstrap\package.json" />
     <Content Include="ResourcePackages\Bootstrap\razorgenerator.directives" />
     <Content Include="ResourcePackages\Bootstrap\README.md" />
-    <Content Include="ResourcePackages\Foundation\client-components\fields\html-field\sf-html-field.js" />
-    <Content Include="ResourcePackages\SemanticUI\client-components\fields\html-field\sf-html-field.js" />
-    <Content Include="ResourcePackages\SemanticUI\result.css" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\telerik.common.js" />
     <Content Include="Silverlight.js" />
@@ -1510,6 +1506,8 @@
     <Content Include="App_Data\RadSpell\fr-FR.tdf" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\Sitefinity\Temp\Libraries\" />
+    <Folder Include="App_Data\Storage\FileSystem\" />
     <Folder Include="Mvc\Models\Author\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
@@ -1665,29 +1663,63 @@
     <Content Include="ResourcePackages\BootstrapCustom\package.json" />
     <Content Include="ResourcePackages\BootstrapCustom\razorgenerator.directives" />
     <Content Include="ResourcePackages\BootstrapCustom\README.md" />
-    <Content Include="ResourcePackages\Foundation\assets\src\sass\navigation\_side-nav.scss" />
-    <Content Include="ResourcePackages\Foundation\assets\src\sass\navigation\_sitemap.scss" />
-    <Content Include="ResourcePackages\Foundation\assets\src\sass\navigation\_tabs-nav.scss" />
-    <Content Include="ResourcePackages\Foundation\assets\src\sass\news\_News.scss" />
-    <Content Include="ResourcePackages\Foundation\assets\src\sass\searchBox\_sf-search-box.scss" />
-    <Content Include="ResourcePackages\Foundation\assets\src\sass\searchResults\_sf-search-results.scss" />
-    <Content Include="ResourcePackages\Foundation\assets\src\sass\_sf-social-share-sprite.scss" />
-    <Content Include="ResourcePackages\Foundation\assets\src\sass\_sf-social-share.scss" />
-    <Content Include="ResourcePackages\Foundation\MVC\Views\Layouts\default.cshtml" />
-    <Content Include="ResourcePackages\Foundation\razorgenerator.directives" />
     <Content Include="ResourcePackages\LICENSE.md" />
     <Content Include="ResourcePackages\README.md" />
-    <Content Include="ResourcePackages\SemanticUI\.gitignore" />
-    <Content Include="ResourcePackages\SemanticUI\assets\src\less\navigation\_sitemap-menu.less" />
-    <Content Include="ResourcePackages\SemanticUI\assets\src\less\navigation\_vertical-menu.less" />
-    <Content Include="ResourcePackages\SemanticUI\assets\src\less\searchBox\_sf-search-box.less" />
-    <Content Include="ResourcePackages\SemanticUI\assets\src\less\searchResults\_sf-search-results.less" />
-    <Content Include="ResourcePackages\SemanticUI\assets\src\less\social-share\social-share-sprite.mustache" />
-    <Content Include="ResourcePackages\SemanticUI\assets\src\less\social-share\_sf-social-share-sprite.sass" />
-    <Content Include="ResourcePackages\SemanticUI\assets\src\less\social-share\_sf-social-share.sass" />
-    <Content Include="ResourcePackages\SemanticUI\MVC\Views\Layouts\default.cshtml" />
-    <Content Include="ResourcePackages\SemanticUI\razorgenerator.directives" />
     <Content Include="SampleTemplate.cshtml" />
+    <Content Include="App_Data\Sitefinity\Configuration\AnalyticsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\AppearanceConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\CatalogConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\CatalogConfig.contentViewControls.ProductsBackendDefinitionName.views.ProductsBackendMaster.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\CatalogConfig.contentViewControls.ProductTypesBackendDefinitionName.views.ProductTypesBackendMaster.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\CommentsModuleConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\ContentViewConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DataConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DigitalExperienceCloudConnectorConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Authors.Author_AthrBckndLst.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Authors.Author_BckndDplctVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Authors.Author_BckndInsrtVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Authors.Author_hrBckndEdtVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Issues.Issue_BckndDplctVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Issues.Issue_BckndInsrtVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Issues.Issue_IssuBckndLst.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Issues.Issue_ssBckndEdtVw.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Project.Bug-577081995_BugBackndLst.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\DynamicModulesConfig.Project.Project-2116437337_rjctBckndLst.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\EcommerceConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\FormsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\ForumsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\LibrariesConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\MigrationConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.contentViewControls.NewsBackend.views.NewsBackendDuplicate.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.contentViewControls.NewsBackend.views.NewsBackendEdit.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.contentViewControls.NewsBackend.views.NewsBackendInsert.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.contentViewControls.NewsBackend.views.NewsBackendPreview.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\NewsConfig.contentViewControls.NewsBackend.views.NewsBackendVersionPreview.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\PagesConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\PersonalizationConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\ProjectConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\RecycleBinConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\ResourcesConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\SearchConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\SecurityConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\SystemConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\ToolboxesConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\TranslationsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\VersionConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\VirtualPathSettingsConfig.config" />
+    <Content Include="App_Data\Sitefinity\Configuration\WorkflowConfig.config" />
+    <Content Include="App_Data\Sitefinity\Logs\Error.2017-01-07.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Error.2017-01-08.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Error.2017-01-10.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Error.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Trace.2017-01-07.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Trace.2017-01-10.1.log" />
+    <Content Include="App_Data\Sitefinity\Logs\Trace.log" />
+    <Content Include="App_Data\Sitefinity\Search\articles\_0.cfs" />
+    <Content Include="App_Data\Sitefinity\Search\main\segments.gen" />
+    <Content Include="App_Data\Sitefinity\Sitefinity.lic" />
     <None Include="bundleconfig.json" />
     <Content Include="Mvc\Views\Author\Detail.Author.cshtml" />
     <Content Include="Mvc\Views\Author\List.Author.cshtml" />
@@ -1726,6 +1758,8 @@
     <Content Include="Mvc\Views\Shared\_ListArticles.cshtml" />
     <Content Include="Mvc\Views\Shared\_ListAuthor.cshtml" />
     <Content Include="Mvc\Views\Shared\_RecentByTopic.Author.cshtml" />
+    <None Include="Properties\PublishProfiles\Local-IIS-Unit-testing.pubxml" />
+    <None Include="Properties\PublishProfiles\Package-Test.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AuthorWidget\AuthorWidget.csproj">
